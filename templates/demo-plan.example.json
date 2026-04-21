@@ -1,0 +1,28 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1080
+  },
+  "initialWaitMs": 500,
+  "steps": [
+    {
+      "waitForSelector": "body",
+      "capture": true
+    },
+    {
+      "fill": {
+        "selector": "#example-input",
+        "value": "Sample value"
+      },
+      "waitMs": 300,
+      "capture": true
+    },
+    {
+      "click": {
+        "selector": "#example-submit"
+      },
+      "waitMs": 600,
+      "capture": true
+    }
+  ]
+}

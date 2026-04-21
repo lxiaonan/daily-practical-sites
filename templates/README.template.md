@@ -6,6 +6,16 @@
 
 用 2-4 句话说明这个项目解决了什么问题、适合谁、为什么实用。
 
+### 创新点
+
+- 说明这个项目和普通同类工具相比，至少 1 个明显创新点
+
+### 预览
+
+![项目截图](./docs/screenshot.png)
+
+![演示 GIF](./docs/demo.gif)
+
 ### 功能
 
 - 功能点 1
@@ -29,6 +39,16 @@
 ### What It Is
 
 Explain the problem this project solves, who it is for, and why it is useful.
+
+### Innovation
+
+- Describe at least one clear differentiator from standard tools in the same space
+
+### Preview
+
+![Project screenshot](./docs/screenshot.png)
+
+![Demo GIF](./docs/demo.gif)
 
 ### Features
 

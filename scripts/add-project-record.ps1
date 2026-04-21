@@ -14,6 +14,8 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$Summary,
 
+    [string]$Folder = "",
+
     [string]$PagesUrl = ""
 )
 
@@ -39,6 +41,7 @@ $entry = [PSCustomObject]@{
     date = $Date
     name = $Name
     repo = $Repo
+    folder = $Folder
     category = $Category
     summary = $Summary
     pages_url = $PagesUrl

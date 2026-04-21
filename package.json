@@ -1,0 +1,14 @@
+{
+  "name": "daily-practical-sites-control",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Control repo tooling for the daily practical sites workflow.",
+  "type": "module",
+  "scripts": {
+    "capture:preview": "node ./scripts/capture-preview.mjs",
+    "capture:demo": "node ./scripts/capture-demo.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}

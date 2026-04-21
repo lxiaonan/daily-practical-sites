@@ -7,5 +7,14 @@
     "category": "pricing",
     "summary": "A static bilingual calculator that helps freelancers estimate hourly, daily, and project rates from income goals, overhead, and risk buffers.",
     "pages_url": "https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/"
+  },
+  {
+    "date": "2026-04-21",
+    "name": "网页研究工作台 | Web Research Workbench",
+    "repo": "https://github.com/lxiaonan/web-research-workbench-day2",
+    "folder": "web-research-workbench-day2",
+    "category": "browser-extension",
+    "summary": "A product-level browser extension that organizes page captures, selected text, tab sessions, and notes into searchable project boards with export support.",
+    "pages_url": "https://lxiaonan.github.io/web-research-workbench-day2/"
   }
 ]

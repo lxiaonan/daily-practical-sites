@@ -59,7 +59,9 @@ daily-practical-sites/
 - At least every few days, rotate into a fuller stack combination such as `React + Python`, `Vue 3 + Java`, or another more substantial architecture.
 - This repository only stores automation assets and the public index.
 
-## Latest Project
+## Latest Projects
 
+- 2026-04-21: [web-research-workbench-day2](https://github.com/lxiaonan/web-research-workbench-day2)
+  GitHub Pages: [https://lxiaonan.github.io/web-research-workbench-day2/](https://lxiaonan.github.io/web-research-workbench-day2/)
 - 2026-04-21: [freelance-rate-calculator-cn-day1](https://github.com/lxiaonan/freelance-rate-calculator-cn-day1)
   GitHub Pages: [https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/](https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/)

@@ -22,7 +22,7 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$historyPath = Join-Path $PSScriptRoot "..\history\projects.json"
+$historyPath = Join-Path $PSScriptRoot "..\..\history\projects.json"
 $resolvedHistoryPath = [System.IO.Path]::GetFullPath($historyPath)
 
 $existing = @()

@@ -4,12 +4,30 @@ This repository is the control center for a daily automation that creates one pr
 
 ## What lives here
 
+- `projects/`: one folder per published project using the `<project-slug>-dayN` format.
+- `automation/scripts/`: reusable GitHub, capture, and ledger scripts.
+- `automation/templates/`: reusable bilingual README, `agents.md`, and demo plan templates.
 - `history/projects.json`: the deduplicated ledger of everything that has already been built.
-- `scripts/get-github-token.ps1`: retrieves the cached GitHub token from Git Credential Manager.
-- `scripts/create-github-repo.ps1`: creates a new repository under the authenticated GitHub account.
-- `scripts/capture-preview.mjs`: generates a screenshot for a project preview.
-- `scripts/capture-demo.mjs`: runs a step-based Playwright demo flow and captures frames.
-- `scripts/make-gif.py`: turns captured frames into an animated GIF.
+- `automation/scripts/get-github-token.ps1`: retrieves the cached GitHub token from Git Credential Manager.
+- `automation/scripts/create-github-repo.ps1`: creates a new repository under the authenticated GitHub account.
+- `automation/scripts/capture-preview.mjs`: generates a screenshot for a project preview.
+- `automation/scripts/capture-demo.mjs`: runs a step-based Playwright demo flow and captures frames.
+- `automation/scripts/make-gif.py`: turns captured frames into an animated GIF.
+
+## Structure
+
+```text
+daily-practical-sites/
+├─ projects/
+│  └─ freelance-rate-calculator-cn-day1/
+├─ automation/
+│  ├─ scripts/
+│  └─ templates/
+├─ history/
+├─ README.md
+├─ package.json
+└─ package-lock.json
+```
 
 ## Workflow
 

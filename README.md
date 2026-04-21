@@ -52,6 +52,11 @@ daily-practical-sites/
 - Frontend can use Vue 3, React, or vanilla JavaScript depending on fit.
 - Backend can use Python or Java when a backend meaningfully improves the product.
 - Every project must include at least one clearly stated innovation or differentiator in its README.
+- New projects should default to product-level complexity rather than single-page toy tools.
+- Avoid bare calculators, simple converters, and thin landing-page-style demos unless they are only one part of a broader workflow.
+- Prefer projects with at least 3 meaningful user interactions or modules, such as data entry, history, comparison, export, persistence, AI assistance, collaboration, visualization, or workflow automation.
+- Prefer multi-step experiences that solve a real task end to end, not just one isolated calculation.
+- At least every few days, rotate into a fuller stack combination such as `React + Python`, `Vue 3 + Java`, or another more substantial architecture.
 - This repository only stores automation assets and the public index.
 
 ## Latest Project

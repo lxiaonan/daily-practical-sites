@@ -36,6 +36,8 @@
 - Do not ship another simple calculator as the main idea.
 - Do not ship a thin CRUD shell without a clearly useful workflow.
 - Do not ship a pretty landing page pretending to be a product.
+- Do not imply AI, search, scraping, automation, or intelligence that is not actually connected and usable.
+- Do not make the main value proposition depend on a missing API key, missing backend, or future integration.
 
 ## Quality Bar
 
@@ -46,3 +48,5 @@
 - State the innovation clearly in the README.
 - Record the inspiration sources in the README so the project has a clear “why now” trail.
 - Push the visual quality beyond a plain utility page. Use deliberate layout, color, typography, spacing, and motion so the product feels polished and a bit cool.
+- If the ideal version needs models or external services, ship an honest working fallback in the published build first.
+- README must explicitly document the real implementation path and any fallback behavior so users know the product is genuinely usable.

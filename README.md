@@ -52,6 +52,10 @@ daily-practical-sites/
 - Every standalone project should reference its screenshot and GIF directly inside `README.md`.
 - Every standalone project should include rich interaction, with multiple meaningful controls, state changes, and at least one multi-step workflow.
 - The visual design should be intentional and polished, not plain. Aim for attractive layouts, stronger styling, and a slightly bold or cool product feel.
+- Do not fake core capabilities. If a project claims AI help, search, scraping, file processing, or backend intelligence, that capability must actually run in the shipped build.
+- If the ideal implementation depends on unavailable APIs, model keys, paid services, or fragile infrastructure, build a working fallback first, such as deterministic local processing, real web search, import-based workflows, or another honest substitute.
+- Never ship a page whose main promise is not actually usable on the published site.
+- README must clearly state what is truly implemented, what fallback is used, and what optional upgrades could be added later.
 - Projects should stay diverse across topic, audience, and implementation style rather than repeating the same type of calculator or dashboard.
 - Same-day inspiration research is mandatory for every project. Do not pre-book, pre-reserve, or pull from a queued backlog of ideas.
 - Inspiration research must start from current real-world demand signals, with `https://linux.do/` and `https://juejin.cn/` treated as default required sources unless they are temporarily unavailable.

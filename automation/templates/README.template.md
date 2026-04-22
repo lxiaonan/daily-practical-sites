@@ -28,6 +28,12 @@
 - 功能点 3
 - 说明它有哪些多步骤交互、状态变化或工作流能力
 
+### 真实可用性说明
+
+- 明确写出这个项目上线后真正可用的核心能力
+- 如果有模型、搜索、抓取、后端等依赖，说明当前使用的真实实现方式或平替方案
+- 不要写“未来可接入”来冒充当前已经具备的主能力
+
 ### 使用方式
 
 1. 打开网站。
@@ -67,6 +73,12 @@ Explain the problem this project solves, who it is for, and why it is useful.
 - Feature 2
 - Feature 3
 - Explain the multi-step interactions, stateful flows, or workflow behaviors that make this more than a simple utility
+
+### What Actually Works
+
+- Clearly state the core capability that is truly usable in the published build
+- If the product depends on models, search, scraping, or backend services, explain the real implementation path or fallback used today
+- Do not present future integrations as if they already power the main experience
 
 ### How To Use
 

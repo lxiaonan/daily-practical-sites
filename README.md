@@ -8,6 +8,7 @@ This repository is the control center for a daily automation that creates one pr
 - `automation/scripts/`: reusable GitHub, capture, and ledger scripts.
 - `automation/templates/`: reusable bilingual README, `agents.md`, and demo plan templates.
 - `history/projects.json`: the deduplicated ledger of everything that has already been built.
+- `history/quality-lessons.md`: the running log of real mistakes, regressions, and the rules added to prevent repeats.
 - `automation/scripts/get-github-token.ps1`: retrieves the cached GitHub token from Git Credential Manager.
 - `automation/scripts/create-github-repo.ps1`: creates a new repository under the authenticated GitHub account.
 - `automation/scripts/capture-preview.mjs`: generates a screenshot for a project preview.
@@ -38,6 +39,7 @@ daily-practical-sites/
 5. Create the matching GitHub repository.
 6. Push the project and deploy it with GitHub Pages when applicable.
 7. Record the result in `history/projects.json`.
+8. If a meaningful mistake, regression, or quality failure happened during the build, append it to `history/quality-lessons.md` with the concrete prevention rule.
 
 ## Conventions
 
@@ -58,6 +60,7 @@ daily-practical-sites/
 - If the ideal implementation depends on unavailable APIs, model keys, paid services, or fragile infrastructure, build a working fallback first, such as deterministic local processing, real web search, import-based workflows, or another honest substitute.
 - Never ship a page whose main promise is not actually usable on the published site.
 - README must clearly state what is truly implemented, what fallback is used, and what optional upgrades could be added later.
+- Significant mistakes discovered during development must be written into `history/quality-lessons.md` together with the concrete rule or safeguard added to prevent a repeat.
 - Projects should stay diverse across topic, audience, and implementation style rather than repeating the same type of calculator or dashboard.
 - Same-day inspiration research is mandatory for every project. Do not pre-book, pre-reserve, or pull from a queued backlog of ideas.
 - Inspiration research must start from current real-world demand signals, with `https://linux.do/` and `https://juejin.cn/` treated as default required sources unless they are temporarily unavailable.

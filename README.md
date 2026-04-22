@@ -31,7 +31,7 @@ daily-practical-sites/
 
 ## Workflow
 
-1. Research the web for a useful site idea.
+1. Research the web for a useful site idea on the same day the project is built.
 2. Check `history/projects.json` to avoid repeating a topic.
 3. Build the site in its own standalone local repository.
 4. Generate a screenshot and a short demo GIF.
@@ -50,6 +50,9 @@ daily-practical-sites/
 - Every standalone project must include `docs/screenshot.png` and `docs/demo.gif`.
 - Every standalone project should reference its screenshot and GIF directly inside `README.md`.
 - Projects should stay diverse across topic, audience, and implementation style rather than repeating the same type of calculator or dashboard.
+- Same-day inspiration research is mandatory for every project. Do not pre-book, pre-reserve, or pull from a queued backlog of ideas.
+- Inspiration research must start from current real-world demand signals, with `https://linux.do/` and `https://juejin.cn/` treated as default required sources unless they are temporarily unavailable.
+- Each new project should be traceable to fresh community needs, complaints, requests, or repeated workflows discovered that day across the web.
 - Frontend can use Vue 3, React, or vanilla JavaScript depending on fit.
 - Backend can use Python or Java when a backend meaningfully improves the product.
 - Every project must include at least one clearly stated innovation or differentiator in its README.

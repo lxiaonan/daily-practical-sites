@@ -10,6 +10,11 @@
 
 - 说明这个项目和普通同类工具相比，至少 1 个明显创新点
 
+### 灵感来源
+
+- 记录当天调研到的社区需求来源，例如 `linux.do`、`juejin.cn` 或其他当日网页讨论
+- 简要说明这些需求为什么值得做成今天的项目
+
 ### 预览
 
 ![项目截图](./docs/screenshot.png)
@@ -43,6 +48,11 @@ Explain the problem this project solves, who it is for, and why it is useful.
 ### Innovation
 
 - Describe at least one clear differentiator from standard tools in the same space
+
+### Inspiration Sources
+
+- Record the same-day community demand sources that led to this project, such as `linux.do`, `juejin.cn`, or other current web discussions
+- Briefly explain why those signals justified building this project today
 
 ### Preview
 

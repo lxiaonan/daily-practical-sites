@@ -5,6 +5,9 @@
 - Build a small but real product, not a one-screen toy.
 - The project should feel useful enough that someone could actually bookmark it and come back.
 - The interaction model should go beyond a single calculation or form submit.
+- Research project inspiration on the same day the build starts. Do not pre-book, pre-reserve, or reuse an idea queue.
+- Start inspiration research from current community demand signals on `https://linux.do/` and `https://juejin.cn/`, then expand to other current web sources if needed.
+- Be able to explain which same-day demand signal led to the project choice.
 
 ## Minimum Complexity
 
@@ -39,3 +42,4 @@
 - Include `agents.md`.
 - Include a screenshot and a demo GIF.
 - State the innovation clearly in the README.
+- Record the inspiration sources in the README so the project has a clear “why now” trail.

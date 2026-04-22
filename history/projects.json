@@ -16,5 +16,14 @@
     "category": "browser-extension",
     "summary": "A product-level browser extension that organizes page captures, selected text, tab sessions, and notes into searchable project boards with export support.",
     "pages_url": "https://lxiaonan.github.io/web-research-workbench-day2/"
+  },
+  {
+    "date": "2026-04-22",
+    "name": "租房决策工作台 | Apartment Hunt Studio",
+    "repo": "https://github.com/lxiaonan/apartment-hunt-studio-day3",
+    "folder": "apartment-hunt-studio-day3",
+    "category": "decision-workflow",
+    "summary": "A product-level apartment hunting website that combines listing intake, weighted scoring, shortlist comparison, visit tracking, and export into one workflow.",
+    "pages_url": "https://lxiaonan.github.io/apartment-hunt-studio-day3/"
   }
 ]

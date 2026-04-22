@@ -61,6 +61,8 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-04-22: [apartment-hunt-studio-day3](https://github.com/lxiaonan/apartment-hunt-studio-day3)
+  GitHub Pages: [https://lxiaonan.github.io/apartment-hunt-studio-day3/](https://lxiaonan.github.io/apartment-hunt-studio-day3/)
 - 2026-04-21: [web-research-workbench-day2](https://github.com/lxiaonan/web-research-workbench-day2)
   GitHub Pages: [https://lxiaonan.github.io/web-research-workbench-day2/](https://lxiaonan.github.io/web-research-workbench-day2/)
 - 2026-04-21: [freelance-rate-calculator-cn-day1](https://github.com/lxiaonan/freelance-rate-calculator-cn-day1)

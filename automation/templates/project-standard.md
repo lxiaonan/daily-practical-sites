@@ -35,6 +35,7 @@
 ## Quality Bar
 
 - Include bilingual documentation.
+- Include a visible Chinese and English language toggle inside the product UI itself.
 - Include `agents.md`.
 - Include a screenshot and a demo GIF.
 - State the innovation clearly in the README.

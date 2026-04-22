@@ -45,6 +45,7 @@ daily-practical-sites/
 - Every project gets its own GitHub repository.
 - Every project folder and repository should follow the `<project-slug>-dayN` naming format.
 - Every standalone project must include a bilingual `README.md` with clear Chinese and English sections.
+- Every standalone project must include a visible in-product language toggle so users can switch between Chinese and English directly in the UI.
 - Every standalone project must include an `agents.md` file describing the project context, structure, and collaboration notes for future agents.
 - Every standalone project must include `docs/screenshot.png` and `docs/demo.gif`.
 - Every standalone project should reference its screenshot and GIF directly inside `README.md`.

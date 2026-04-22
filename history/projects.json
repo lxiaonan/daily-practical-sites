@@ -37,6 +37,16 @@
     "category": "ai-coding-workflow",
     "summary": "A bilingual local-first workspace that turns fuzzy AI coding requests into structured context packs with token-aware strategy compare, history snapshots, and Markdown or JSON export.",
     "pages_url": "https://lxiaonan.github.io/context-pack-studio-day4/",
+    "status": "superseded"
+  },
+  {
+    "date": "2026-04-22",
+    "name": "代码库交接雷达 | Repo Handoff Radar",
+    "repo": "https://github.com/lxiaonan/repo-handoff-radar-day5",
+    "folder": "repo-handoff-radar-day5",
+    "category": "repo-analysis-workflow",
+    "summary": "A bilingual local-first repo analysis studio that imports a project folder, detects stack and documentation gaps, scans TODO hotspots, and exports a real handoff pack.",
+    "pages_url": "https://lxiaonan.github.io/repo-handoff-radar-day5/",
     "status": "published"
   }
 ]

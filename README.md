@@ -73,7 +73,10 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-04-22: [repo-handoff-radar-day5](https://github.com/lxiaonan/repo-handoff-radar-day5)
+  GitHub Pages: [https://lxiaonan.github.io/repo-handoff-radar-day5/](https://lxiaonan.github.io/repo-handoff-radar-day5/)
 - 2026-04-22: [context-pack-studio-day4](https://github.com/lxiaonan/context-pack-studio-day4)
+  Status: superseded by the stronger same-day rebuild
   GitHub Pages: [https://lxiaonan.github.io/context-pack-studio-day4/](https://lxiaonan.github.io/context-pack-studio-day4/)
 - 2026-04-22: [apartment-hunt-studio-day3](https://github.com/lxiaonan/apartment-hunt-studio-day3)
   Status: superseded by the stronger same-day rebuild

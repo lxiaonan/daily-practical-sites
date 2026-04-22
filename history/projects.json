@@ -6,7 +6,8 @@
     "folder": "freelance-rate-calculator-cn-day1",
     "category": "pricing",
     "summary": "A static bilingual calculator that helps freelancers estimate hourly, daily, and project rates from income goals, overhead, and risk buffers.",
-    "pages_url": "https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/"
+    "pages_url": "https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/",
+    "status": "published"
   },
   {
     "date": "2026-04-21",
@@ -15,7 +16,8 @@
     "folder": "web-research-workbench-day2",
     "category": "browser-extension",
     "summary": "A product-level browser extension that organizes page captures, selected text, tab sessions, and notes into searchable project boards with export support.",
-    "pages_url": "https://lxiaonan.github.io/web-research-workbench-day2/"
+    "pages_url": "https://lxiaonan.github.io/web-research-workbench-day2/",
+    "status": "published"
   },
   {
     "date": "2026-04-22",
@@ -24,6 +26,17 @@
     "folder": "apartment-hunt-studio-day3",
     "category": "decision-workflow",
     "summary": "A product-level apartment hunting website that combines listing intake, weighted scoring, shortlist comparison, visit tracking, and export into one workflow.",
-    "pages_url": "https://lxiaonan.github.io/apartment-hunt-studio-day3/"
+    "pages_url": "https://lxiaonan.github.io/apartment-hunt-studio-day3/",
+    "status": "superseded"
+  },
+  {
+    "date": "2026-04-22",
+    "name": "上下文交付包工作台 | Context Pack Studio",
+    "repo": "https://github.com/lxiaonan/context-pack-studio-day4",
+    "folder": "context-pack-studio-day4",
+    "category": "ai-coding-workflow",
+    "summary": "A bilingual local-first workspace that turns fuzzy AI coding requests into structured context packs with token-aware strategy compare, history snapshots, and Markdown or JSON export.",
+    "pages_url": "https://lxiaonan.github.io/context-pack-studio-day4/",
+    "status": "published"
   }
 ]

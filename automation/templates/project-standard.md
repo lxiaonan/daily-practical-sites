@@ -5,6 +5,7 @@
 - Build a small but real product, not a one-screen toy.
 - The project should feel useful enough that someone could actually bookmark it and come back.
 - The interaction model should go beyond a single calculation or form submit.
+- The product should not feel too simple. Add enough depth that it feels like a real workflow tool, not a throwaway page.
 - Research project inspiration on the same day the build starts. Do not pre-book, pre-reserve, or reuse an idea queue.
 - Start inspiration research from current community demand signals on `https://linux.do/` and `https://juejin.cn/`, then expand to other current web sources if needed.
 - Be able to explain which same-day demand signal led to the project choice.
@@ -13,6 +14,7 @@
 
 - Include at least 3 meaningful modules or flows.
 - At least 1 flow should have multiple steps or state transitions.
+- Include enough interaction density that users can do more than type once and read one result.
 - Include at least 1 of the following:
   - local persistence
   - file import or export
@@ -43,3 +45,4 @@
 - Include a screenshot and a demo GIF.
 - State the innovation clearly in the README.
 - Record the inspiration sources in the README so the project has a clear “why now” trail.
+- Push the visual quality beyond a plain utility page. Use deliberate layout, color, typography, spacing, and motion so the product feels polished and a bit cool.

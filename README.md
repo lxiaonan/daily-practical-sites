@@ -41,14 +41,17 @@ daily-practical-sites/
 
 ## Conventions
 
-- One day, one project.
+- One day, one primary shipped project. If a same-day remake is needed, the stronger rebuild becomes the recommended entry and earlier attempts can remain archived as superseded work.
 - Every project gets its own GitHub repository.
 - Every project folder and repository should follow the `<project-slug>-dayN` naming format.
+- Projects must not feel too simple. Default to product-level depth rather than a tiny one-screen utility.
 - Every standalone project must include a bilingual `README.md` with clear Chinese and English sections.
 - Every standalone project must include a visible in-product language toggle so users can switch between Chinese and English directly in the UI.
 - Every standalone project must include an `agents.md` file describing the project context, structure, and collaboration notes for future agents.
 - Every standalone project must include `docs/screenshot.png` and `docs/demo.gif`.
 - Every standalone project should reference its screenshot and GIF directly inside `README.md`.
+- Every standalone project should include rich interaction, with multiple meaningful controls, state changes, and at least one multi-step workflow.
+- The visual design should be intentional and polished, not plain. Aim for attractive layouts, stronger styling, and a slightly bold or cool product feel.
 - Projects should stay diverse across topic, audience, and implementation style rather than repeating the same type of calculator or dashboard.
 - Same-day inspiration research is mandatory for every project. Do not pre-book, pre-reserve, or pull from a queued backlog of ideas.
 - Inspiration research must start from current real-world demand signals, with `https://linux.do/` and `https://juejin.cn/` treated as default required sources unless they are temporarily unavailable.
@@ -60,12 +63,16 @@ daily-practical-sites/
 - Avoid bare calculators, simple converters, and thin landing-page-style demos unless they are only one part of a broader workflow.
 - Prefer projects with at least 3 meaningful user interactions or modules, such as data entry, history, comparison, export, persistence, AI assistance, collaboration, visualization, or workflow automation.
 - Prefer multi-step experiences that solve a real task end to end, not just one isolated calculation.
+- Prefer interfaces with stronger visual personality, layered composition, and interaction feedback instead of plain form-plus-result layouts.
 - At least every few days, rotate into a fuller stack combination such as `React + Python`, `Vue 3 + Java`, or another more substantial architecture.
 - This repository only stores automation assets and the public index.
 
 ## Latest Projects
 
+- 2026-04-22: [context-pack-studio-day4](https://github.com/lxiaonan/context-pack-studio-day4)
+  GitHub Pages: [https://lxiaonan.github.io/context-pack-studio-day4/](https://lxiaonan.github.io/context-pack-studio-day4/)
 - 2026-04-22: [apartment-hunt-studio-day3](https://github.com/lxiaonan/apartment-hunt-studio-day3)
+  Status: superseded by the stronger same-day rebuild
   GitHub Pages: [https://lxiaonan.github.io/apartment-hunt-studio-day3/](https://lxiaonan.github.io/apartment-hunt-studio-day3/)
 - 2026-04-21: [web-research-workbench-day2](https://github.com/lxiaonan/web-research-workbench-day2)
   GitHub Pages: [https://lxiaonan.github.io/web-research-workbench-day2/](https://lxiaonan.github.io/web-research-workbench-day2/)

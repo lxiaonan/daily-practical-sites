@@ -26,6 +26,7 @@
 - 功能点 1
 - 功能点 2
 - 功能点 3
+- 说明它有哪些多步骤交互、状态变化或工作流能力
 
 ### 使用方式
 
@@ -65,6 +66,7 @@ Explain the problem this project solves, who it is for, and why it is useful.
 - Feature 1
 - Feature 2
 - Feature 3
+- Explain the multi-step interactions, stateful flows, or workflow behaviors that make this more than a simple utility
 
 ### How To Use
 

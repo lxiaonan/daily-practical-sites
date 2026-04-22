@@ -50,3 +50,5 @@
 - Push the visual quality beyond a plain utility page. Use deliberate layout, color, typography, spacing, and motion so the product feels polished and a bit cool.
 - If the ideal version needs models or external services, ship an honest working fallback in the published build first.
 - README must explicitly document the real implementation path and any fallback behavior so users know the product is genuinely usable.
+- Stress-test the layout with long content, many rows, long paths, and dense results. Panels should contain overflow gracefully instead of stretching the entire page into an unreadable wall.
+- If the product analyzes repositories, files, logs, or other noisy sources, ignore common generated directories and machine output by default whenever that improves usability.

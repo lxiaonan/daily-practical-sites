@@ -48,5 +48,15 @@
     "summary": "A bilingual local-first repo analysis studio that imports a project folder, detects stack and documentation gaps, scans TODO hotspots, and exports a real handoff pack.",
     "pages_url": "https://lxiaonan.github.io/repo-handoff-radar-day5/",
     "status": "published"
+  },
+  {
+    "date": "2026-04-23",
+    "name": "会议执行看板 | Meeting Execution Board",
+    "repo": "https://github.com/lxiaonan/meeting-execution-board-day6",
+    "folder": "meeting-execution-board-day6",
+    "category": "meeting-execution-workflow",
+    "summary": "A bilingual local-first workflow that turns meeting notes into action items, owner and due-date tracking, risks, timeline views, and exportable execution packs.",
+    "pages_url": "https://lxiaonan.github.io/meeting-execution-board-day6/",
+    "status": "published"
   }
 ]

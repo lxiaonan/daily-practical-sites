@@ -53,3 +53,4 @@
 - Stress-test the layout with long content, many rows, long paths, and dense results. Panels should contain overflow gracefully instead of stretching the entire page into an unreadable wall.
 - If the product analyzes repositories, files, logs, or other noisy sources, ignore common generated directories and machine output by default whenever that improves usability.
 - If a meaningful mistake or regression is discovered during the build, record it in `daily-practical-sites/history/quality-lessons.md` and add the prevention rule before considering the task done.
+- Large recurring automations should move in explicit phases with checkpoints so a slow publish or deploy step does not make the whole run look frozen.

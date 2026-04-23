@@ -61,6 +61,7 @@ daily-practical-sites/
 - Never ship a page whose main promise is not actually usable on the published site.
 - README must clearly state what is truly implemented, what fallback is used, and what optional upgrades could be added later.
 - Significant mistakes discovered during development must be written into `history/quality-lessons.md` together with the concrete rule or safeguard added to prevent a repeat.
+- Long daily runs must be staged. Prefer explicit phase checkpoints such as research, build, asset generation, publish, and index update instead of one opaque blocking sequence.
 - Projects should stay diverse across topic, audience, and implementation style rather than repeating the same type of calculator or dashboard.
 - Same-day inspiration research is mandatory for every project. Do not pre-book, pre-reserve, or pull from a queued backlog of ideas.
 - Inspiration research must start from current real-world demand signals, with `https://linux.do/` and `https://juejin.cn/` treated as default required sources unless they are temporarily unavailable.
@@ -78,6 +79,8 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-04-23: [meeting-execution-board-day6](https://github.com/lxiaonan/meeting-execution-board-day6)
+  GitHub Pages: [https://lxiaonan.github.io/meeting-execution-board-day6/](https://lxiaonan.github.io/meeting-execution-board-day6/)
 - 2026-04-22: [repo-handoff-radar-day5](https://github.com/lxiaonan/repo-handoff-radar-day5)
   GitHub Pages: [https://lxiaonan.github.io/repo-handoff-radar-day5/](https://lxiaonan.github.io/repo-handoff-radar-day5/)
 - 2026-04-22: [context-pack-studio-day4](https://github.com/lxiaonan/context-pack-studio-day4)

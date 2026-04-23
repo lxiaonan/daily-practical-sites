@@ -15,3 +15,10 @@
   `repo-handoff-radar-day5` initially allowed long code lines, long file paths, and noisy imported folders such as `node_modules` to create oversized cards and extremely long pages.
 - Prevention rule:
   Stress-test pages with long strings, many rows, and noisy real-world data. Use wrapping, truncation, bounded panel heights, and internal scrolling. Ignore common generated-noise directories by default when that improves usability.
+
+### Lesson 3: Daily automation must not look frozen because one chain is too long
+
+- What happened:
+  The daily builder combined web research, implementation, asset generation, repository publishing, Pages deployment, and control-repo updates into one long sequence. When any single step stalled, the whole run looked like it was hanging.
+- Prevention rule:
+  Work in explicit phases with checkpoints: research and dedupe first, then local build, then assets, then publishing, then control-repo updates. Use bounded waits for deployment checks and prefer resumable progress over one giant blocking chain.

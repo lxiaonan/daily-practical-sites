@@ -1,62 +1,72 @@
-[
-  {
-    "date": "2026-04-21",
-    "name": "自由职业报价换算器 | Freelance Rate Calculator",
-    "repo": "https://github.com/lxiaonan/freelance-rate-calculator-cn-day1",
-    "folder": "freelance-rate-calculator-cn-day1",
-    "category": "pricing",
-    "summary": "A static bilingual calculator that helps freelancers estimate hourly, daily, and project rates from income goals, overhead, and risk buffers.",
-    "pages_url": "https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/",
-    "status": "published"
-  },
-  {
-    "date": "2026-04-21",
-    "name": "网页研究工作台 | Web Research Workbench",
-    "repo": "https://github.com/lxiaonan/web-research-workbench-day2",
-    "folder": "web-research-workbench-day2",
-    "category": "browser-extension",
-    "summary": "A product-level browser extension that organizes page captures, selected text, tab sessions, and notes into searchable project boards with export support.",
-    "pages_url": "https://lxiaonan.github.io/web-research-workbench-day2/",
-    "status": "published"
-  },
-  {
-    "date": "2026-04-22",
-    "name": "租房决策工作台 | Apartment Hunt Studio",
-    "repo": "https://github.com/lxiaonan/apartment-hunt-studio-day3",
-    "folder": "apartment-hunt-studio-day3",
-    "category": "decision-workflow",
-    "summary": "A product-level apartment hunting website that combines listing intake, weighted scoring, shortlist comparison, visit tracking, and export into one workflow.",
-    "pages_url": "https://lxiaonan.github.io/apartment-hunt-studio-day3/",
-    "status": "superseded"
-  },
-  {
-    "date": "2026-04-22",
-    "name": "上下文交付包工作台 | Context Pack Studio",
-    "repo": "https://github.com/lxiaonan/context-pack-studio-day4",
-    "folder": "context-pack-studio-day4",
-    "category": "ai-coding-workflow",
-    "summary": "A bilingual local-first workspace that turns fuzzy AI coding requests into structured context packs with token-aware strategy compare, history snapshots, and Markdown or JSON export.",
-    "pages_url": "https://lxiaonan.github.io/context-pack-studio-day4/",
-    "status": "superseded"
-  },
-  {
-    "date": "2026-04-22",
-    "name": "代码库交接雷达 | Repo Handoff Radar",
-    "repo": "https://github.com/lxiaonan/repo-handoff-radar-day5",
-    "folder": "repo-handoff-radar-day5",
-    "category": "repo-analysis-workflow",
-    "summary": "A bilingual local-first repo analysis studio that imports a project folder, detects stack and documentation gaps, scans TODO hotspots, and exports a real handoff pack.",
-    "pages_url": "https://lxiaonan.github.io/repo-handoff-radar-day5/",
-    "status": "published"
-  },
-  {
-    "date": "2026-04-23",
-    "name": "会议执行看板 | Meeting Execution Board",
-    "repo": "https://github.com/lxiaonan/meeting-execution-board-day6",
-    "folder": "meeting-execution-board-day6",
-    "category": "meeting-execution-workflow",
-    "summary": "A bilingual local-first workflow that turns meeting notes into action items, owner and due-date tracking, risks, timeline views, and exportable execution packs.",
-    "pages_url": "https://lxiaonan.github.io/meeting-execution-board-day6/",
-    "status": "published"
-  }
+﻿[
+{
+    "date":  "2026-04-21",
+    "name":  "自由职业报价换算器 | Freelance Rate Calculator",
+    "repo":  "https://github.com/lxiaonan/freelance-rate-calculator-cn-day1",
+    "folder":  "freelance-rate-calculator-cn-day1",
+    "category":  "pricing",
+    "summary":  "A static bilingual calculator that helps freelancers estimate hourly, daily, and project rates from income goals, overhead, and risk buffers.",
+    "pages_url":  "https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/",
+    "status":  "published"
+},
+{
+    "date":  "2026-04-21",
+    "name":  "网页研究工作台 | Web Research Workbench",
+    "repo":  "https://github.com/lxiaonan/web-research-workbench-day2",
+    "folder":  "web-research-workbench-day2",
+    "category":  "browser-extension",
+    "summary":  "A product-level browser extension that organizes page captures, selected text, tab sessions, and notes into searchable project boards with export support.",
+    "pages_url":  "https://lxiaonan.github.io/web-research-workbench-day2/",
+    "status":  "published"
+},
+{
+    "date":  "2026-04-22",
+    "name":  "租房决策工作台 | Apartment Hunt Studio",
+    "repo":  "https://github.com/lxiaonan/apartment-hunt-studio-day3",
+    "folder":  "apartment-hunt-studio-day3",
+    "category":  "decision-workflow",
+    "summary":  "A product-level apartment hunting website that combines listing intake, weighted scoring, shortlist comparison, visit tracking, and export into one workflow.",
+    "pages_url":  "https://lxiaonan.github.io/apartment-hunt-studio-day3/",
+    "status":  "superseded"
+},
+{
+    "date":  "2026-04-22",
+    "name":  "上下文交付包工作台 | Context Pack Studio",
+    "repo":  "https://github.com/lxiaonan/context-pack-studio-day4",
+    "folder":  "context-pack-studio-day4",
+    "category":  "ai-coding-workflow",
+    "summary":  "A bilingual local-first workspace that turns fuzzy AI coding requests into structured context packs with token-aware strategy compare, history snapshots, and Markdown or JSON export.",
+    "pages_url":  "https://lxiaonan.github.io/context-pack-studio-day4/",
+    "status":  "superseded"
+},
+{
+    "date":  "2026-04-22",
+    "name":  "代码库交接雷达 | Repo Handoff Radar",
+    "repo":  "https://github.com/lxiaonan/repo-handoff-radar-day5",
+    "folder":  "repo-handoff-radar-day5",
+    "category":  "repo-analysis-workflow",
+    "summary":  "A bilingual local-first repo analysis studio that imports a project folder, detects stack and documentation gaps, scans TODO hotspots, and exports a real handoff pack.",
+    "pages_url":  "https://lxiaonan.github.io/repo-handoff-radar-day5/",
+    "status":  "published"
+},
+{
+    "date":  "2026-04-23",
+    "name":  "会议执行看板 | Meeting Execution Board",
+    "repo":  "https://github.com/lxiaonan/meeting-execution-board-day6",
+    "folder":  "meeting-execution-board-day6",
+    "category":  "meeting-execution-workflow",
+    "summary":  "A bilingual local-first workflow that turns meeting notes into action items, owner and due-date tracking, risks, timeline views, and exportable execution packs.",
+    "pages_url":  "https://lxiaonan.github.io/meeting-execution-board-day6/",
+    "status":  "published"
+},
+{
+    "date":  "2026-04-24",
+    "name":  "磁盘清理指挥台 | Disk Sweep Command Center",
+    "repo":  "https://github.com/lxiaonan/disk-sweep-command-center-day7",
+    "folder":  "disk-sweep-command-center-day7",
+    "category":  "storage-cleanup-workflow",
+    "summary":  "A bilingual local-first storage cleanup planning studio that imports a folder, surfaces large files, noisy directories, and duplicate candidates, then exports a safe cleanup plan.",
+    "pages_url":  "https://lxiaonan.github.io/disk-sweep-command-center-day7/",
+    "status":  "published"
+}
 ]

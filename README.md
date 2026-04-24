@@ -79,6 +79,8 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-04-24: [disk-sweep-command-center-day7](https://github.com/lxiaonan/disk-sweep-command-center-day7)
+  GitHub Pages: [https://lxiaonan.github.io/disk-sweep-command-center-day7/](https://lxiaonan.github.io/disk-sweep-command-center-day7/)
 - 2026-04-23: [meeting-execution-board-day6](https://github.com/lxiaonan/meeting-execution-board-day6)
   GitHub Pages: [https://lxiaonan.github.io/meeting-execution-board-day6/](https://lxiaonan.github.io/meeting-execution-board-day6/)
 - 2026-04-22: [repo-handoff-radar-day5](https://github.com/lxiaonan/repo-handoff-radar-day5)

@@ -13,3 +13,5 @@
 - This project is a richer follow-up to `day1` and raises the quality bar to a product-style workflow tool.
 - It focuses on browser-side research capture instead of lightweight single-page calculations.
 - The actual implementation lives in its own independent repository and local folder.
+- Beginner guide: [docs/BEGINNER-GUIDE.md](https://github.com/lxiaonan/web-research-workbench-day2/blob/main/docs/BEGINNER-GUIDE.md)
+- 小白使用文档：[docs/BEGINNER-GUIDE.md](https://github.com/lxiaonan/web-research-workbench-day2/blob/main/docs/BEGINNER-GUIDE.md)

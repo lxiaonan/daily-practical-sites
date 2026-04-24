@@ -48,6 +48,7 @@ daily-practical-sites/
 - Every project folder and repository should follow the `<project-slug>-dayN` naming format.
 - Projects must not feel too simple. Default to product-level depth rather than a tiny one-screen utility.
 - Every standalone project must include a bilingual `README.md` with clear Chinese and English sections.
+- Every standalone project must include a detailed bilingual beginner guide, preferably at `docs/BEGINNER-GUIDE.md`, with step-by-step instructions for non-technical users.
 - Every standalone project must include a visible in-product language toggle so users can switch between Chinese and English directly in the UI.
 - Every standalone project must include an `agents.md` file describing the project context, structure, and collaboration notes for future agents.
 - Every standalone project must include `docs/screenshot.png` and `docs/demo.gif`.

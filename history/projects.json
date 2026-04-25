@@ -68,5 +68,15 @@
     "summary":  "A bilingual local-first storage cleanup planning studio that imports a folder, surfaces large files, noisy directories, and duplicate candidates, then exports a safe cleanup plan.",
     "pages_url":  "https://lxiaonan.github.io/disk-sweep-command-center-day7/",
     "status":  "published"
+},
+{
+    "date":  "2026-04-25",
+    "name":  "AI 工具栈瘦身指挥台 | AI Stack Reset Board",
+    "repo":  "https://github.com/lxiaonan/ai-stack-reset-board-day8",
+    "folder":  "ai-stack-reset-board-day8",
+    "category":  "ai-stack-rationalization-workflow",
+    "summary":  "A bilingual local-first decision board that audits AI subscription overlap, renewal pressure, workflow coverage, and lean stack scenarios.",
+    "pages_url":  "https://lxiaonan.github.io/ai-stack-reset-board-day8/",
+    "status":  "published"
 }
 ]

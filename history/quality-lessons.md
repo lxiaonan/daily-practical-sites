@@ -22,3 +22,19 @@
   The daily builder combined web research, implementation, asset generation, repository publishing, Pages deployment, and control-repo updates into one long sequence. When any single step stalled, the whole run looked like it was hanging.
 - Prevention rule:
   Work in explicit phases with checkpoints: research and dedupe first, then local build, then assets, then publishing, then control-repo updates. Use bounded waits for deployment checks and prefer resumable progress over one giant blocking chain.
+
+## 2026-04-25
+
+### Lesson 4: Node-consumed automation JSON must be written without BOM
+
+- What happened:
+  The demo capture plan for `ai-stack-reset-board-day8` was first written through a PowerShell path that inserted a UTF-8 BOM. The Node-based capture script parsed it as invalid JSON and silently blocked the asset phase.
+- Prevention rule:
+  Any JSON file that will be consumed by Node scripts during automation must be written in BOM-free UTF-8. Prefer explicit no-BOM writes instead of relying on shell defaults.
+
+### Lesson 5: Frontend scaffolding commands should use a relative project folder from the parent directory
+
+- What happened:
+  `create-vite` was initially invoked with an absolute Windows path, which turned the path into a mangled folder name and created the scaffold in the wrong location.
+- Prevention rule:
+  When scaffolding a new frontend app, switch to the parent workspace directory first and pass only the relative project folder name to the generator.

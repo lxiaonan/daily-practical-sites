@@ -78,5 +78,15 @@
     "summary":  "A bilingual local-first decision board that audits AI subscription overlap, renewal pressure, workflow coverage, and lean stack scenarios.",
     "pages_url":  "https://lxiaonan.github.io/ai-stack-reset-board-day8/",
     "status":  "published"
+},
+{
+    "date":  "2026-04-26",
+    "name":  "收藏复活工作台 | Knowledge Revival Studio",
+    "repo":  "https://github.com/lxiaonan/knowledge-revival-studio-day9",
+    "folder":  "knowledge-revival-studio-day9",
+    "category":  "knowledge-revival-workflow",
+    "summary":  "A bilingual local-first bookmark revival studio that imports browser bookmark exports, triages stale saves, schedules review, and builds time-budgeted reading packs.",
+    "pages_url":  "https://lxiaonan.github.io/knowledge-revival-studio-day9/",
+    "status":  "published"
 }
 ]

@@ -80,6 +80,8 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-04-26: [knowledge-revival-studio-day9](https://github.com/lxiaonan/knowledge-revival-studio-day9)
+  GitHub Pages: [https://lxiaonan.github.io/knowledge-revival-studio-day9/](https://lxiaonan.github.io/knowledge-revival-studio-day9/)
 - 2026-04-25: [ai-stack-reset-board-day8](https://github.com/lxiaonan/ai-stack-reset-board-day8)
   GitHub Pages: [https://lxiaonan.github.io/ai-stack-reset-board-day8/](https://lxiaonan.github.io/ai-stack-reset-board-day8/)
 - 2026-04-24: [disk-sweep-command-center-day7](https://github.com/lxiaonan/disk-sweep-command-center-day7)

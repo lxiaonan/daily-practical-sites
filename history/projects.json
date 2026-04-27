@@ -88,5 +88,15 @@
     "summary":  "A bilingual local-first bookmark revival studio that imports browser bookmark exports, triages stale saves, schedules review, and builds time-budgeted reading packs.",
     "pages_url":  "https://lxiaonan.github.io/knowledge-revival-studio-day9/",
     "status":  "published"
+},
+{
+    "date":  "2026-04-27",
+    "name":  "视觉反馈包工作台 | Visual Bug Packet Studio",
+    "repo":  "https://github.com/lxiaonan/visual-bug-packet-studio-day10",
+    "folder":  "visual-bug-packet-studio-day10",
+    "category":  "visual-qa-workflow",
+    "summary":  "A bilingual local-first screenshot review studio that turns visual bug notes into structured feedback packets with pin-based annotation, compare mode, export, and local history.",
+    "pages_url":  "https://lxiaonan.github.io/visual-bug-packet-studio-day10/",
+    "status":  "published"
 }
 ]

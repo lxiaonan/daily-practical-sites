@@ -38,3 +38,19 @@
   `create-vite` was initially invoked with an absolute Windows path, which turned the path into a mangled folder name and created the scaffold in the wrong location.
 - Prevention rule:
   When scaffolding a new frontend app, switch to the parent workspace directory first and pass only the relative project folder name to the generator.
+
+## 2026-04-29
+
+### Lesson 6: Local preview servers should be started with a directly executable command
+
+- What happened:
+  `download-cleanup-rename-studio-day11` first attempted to start Vite through a nested PowerShell command, but the server did not bind to the expected port, causing the screenshot capture step to get `ERR_CONNECTION_REFUSED`.
+- Prevention rule:
+  For Windows daily builds, start Vite preview/dev servers with `Start-Process -FilePath "npm.cmd"` and explicit `--host` plus `--port`, then probe the URL before running capture scripts.
+
+### Lesson 7: Demo capture plans must match the automation script schema exactly
+
+- What happened:
+  The first demo plan used `"click": "#selector"`, while `capture-demo.mjs` expects `"click": { "selector": "#selector" }`, so Playwright failed before generating the GIF.
+- Prevention rule:
+  Validate demo plan JSON against the capture script contract before running the demo phase. For `capture-demo.mjs`, use object-shaped `click`, `fill`, `select`, `type`, `press`, and `hover` steps.

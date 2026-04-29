@@ -80,6 +80,8 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-04-29: [download-cleanup-rename-studio-day11](https://github.com/lxiaonan/download-cleanup-rename-studio-day11)
+  GitHub Pages: [https://lxiaonan.github.io/download-cleanup-rename-studio-day11/](https://lxiaonan.github.io/download-cleanup-rename-studio-day11/)
 - 2026-04-27: [visual-bug-packet-studio-day10](https://github.com/lxiaonan/visual-bug-packet-studio-day10)
   GitHub Pages: [https://lxiaonan.github.io/visual-bug-packet-studio-day10/](https://lxiaonan.github.io/visual-bug-packet-studio-day10/)
 - 2026-04-26: [knowledge-revival-studio-day9](https://github.com/lxiaonan/knowledge-revival-studio-day9)

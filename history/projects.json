@@ -1,4 +1,4 @@
-﻿[
+[
 {
     "date":  "2026-04-21",
     "name":  "自由职业报价换算器 | Freelance Rate Calculator",
@@ -97,6 +97,16 @@
     "category":  "visual-qa-workflow",
     "summary":  "A bilingual local-first screenshot review studio that turns visual bug notes into structured feedback packets with pin-based annotation, compare mode, export, and local history.",
     "pages_url":  "https://lxiaonan.github.io/visual-bug-packet-studio-day10/",
+    "status":  "published"
+},
+{
+    "date":  "2026-04-29",
+    "name":  "下载整理与批量重命名工作台 | Download Cleanup & Rename Studio",
+    "repo":  "https://github.com/lxiaonan/download-cleanup-rename-studio-day11",
+    "folder":  "download-cleanup-rename-studio-day11",
+    "category":  "download-organization-workflow",
+    "summary":  "A bilingual local-first download folder organization and batch rename rehearsal studio with rule composition, conflict detection, local snapshots, CSV export, and safe PowerShell export.",
+    "pages_url":  "https://lxiaonan.github.io/download-cleanup-rename-studio-day11/",
     "status":  "published"
 }
 ]

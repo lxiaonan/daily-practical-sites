@@ -108,5 +108,15 @@
     "summary":  "A bilingual local-first download folder organization and batch rename rehearsal studio with rule composition, conflict detection, local snapshots, CSV export, and safe PowerShell export.",
     "pages_url":  "https://lxiaonan.github.io/download-cleanup-rename-studio-day11/",
     "status":  "published"
+},
+{
+    "date":  "2026-04-29",
+    "name":  "C 盘安全清理工作台 | C Drive Safety Cleaner",
+    "repo":  "https://github.com/lxiaonan/c-drive-safety-cleaner-day12",
+    "folder":  "c-drive-safety-cleaner-day12",
+    "category":  "windows-cleanup-workflow",
+    "summary":  "A bilingual local-first Windows C drive cleanup studio that combines a PowerShell scanner, JSON report import, size-ranked folder and file review, risk explanations, allowlist target selection, and DryRun cleanup script export.",
+    "pages_url":  "https://lxiaonan.github.io/c-drive-safety-cleaner-day12/",
+    "status":  "published"
 }
 ]

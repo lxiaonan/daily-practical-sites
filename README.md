@@ -75,6 +75,10 @@ daily-practical-sites/
 - Prefer projects with at least 3 meaningful user interactions or modules, such as data entry, history, comparison, export, persistence, AI assistance, collaboration, visualization, or workflow automation.
 - Prefer multi-step experiences that solve a real task end to end, not just one isolated calculation.
 - Prefer interfaces with stronger visual personality, layered composition, and interaction feedback instead of plain form-plus-result layouts.
+- Before writing frontend code, run an explicit design pass: define audience, moodboard keywords, design tokens, layout strategy, component variants, interaction states, and accessibility checks.
+- Do not reuse the same daily-project dashboard shell repeatedly. Rotate visual languages and information architecture so new projects do not look obviously AI-generated.
+- Use CSS variables or Tailwind tokens for color, spacing, radius, shadows, and motion. Avoid ad hoc hardcoded styling.
+- Follow an 8px spacing rhythm, consistent type scale, focus-visible states, responsive breakpoints, and WCAG AA contrast as baseline frontend quality requirements.
 - At least every few days, rotate into a fuller stack combination such as `React + Python`, `Vue 3 + Java`, or another more substantial architecture.
 - This repository only stores automation assets and the public index.
 

@@ -54,3 +54,19 @@
   The first demo plan used `"click": "#selector"`, while `capture-demo.mjs` expects `"click": { "selector": "#selector" }`, so Playwright failed before generating the GIF.
 - Prevention rule:
   Validate demo plan JSON against the capture script contract before running the demo phase. For `capture-demo.mjs`, use object-shaped `click`, `fill`, `select`, `type`, `press`, and `hover` steps.
+
+## 2026-04-30
+
+### Lesson 8: Do not reuse the same AI-looking dashboard layout
+
+- What happened:
+  Multiple daily projects converged on the same visual formula: large top hero, metric cards, left filter sidebar, right content cards, heavy borders, grid background, and similar typography. Even when the functions worked, the repeated layout made the sites feel obviously AI-generated and visually tiring.
+- Prevention rule:
+  Before writing frontend code, define a concrete design direction, target user, layout strategy, component system, spacing scale, typography, color tokens, motion, and responsive behavior. Do not reuse the prior dashboard shell by default. Rotate visual languages across projects, such as editorial workspace, compact desktop utility, split-pane native app, command palette workflow, bento grid, timeline canvas, kanban board, document editor, or gallery-first layout.
+
+### Lesson 9: Frontend work needs an explicit design pipeline
+
+- What happened:
+  The build process prioritized features first and visual polish second, so design choices became repetitive and generic.
+- Prevention rule:
+  Each new frontend project must include a short design pass before implementation: brand keywords, moodboard keywords, design tokens, layout strategy, component variants, interaction states, and accessibility checks. Use CSS variables or Tailwind tokens instead of ad hoc colors, keep an 8px spacing system, define focus-visible states, and verify mobile/desktop screenshots before publishing.

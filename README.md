@@ -11,6 +11,7 @@ This repository is the control center for a daily automation that creates one pr
 - `history/quality-lessons.md`: the running log of real mistakes, regressions, and the rules added to prevent repeats.
 - `automation/scripts/get-github-token.ps1`: retrieves the cached GitHub token from Git Credential Manager.
 - `automation/scripts/create-github-repo.ps1`: creates a new repository under the authenticated GitHub account.
+- `automation/scripts/update-repo-about.ps1`: updates the GitHub repository About description and homepage link, including the public Pages URL.
 - `automation/scripts/capture-preview.mjs`: generates a screenshot for a project preview.
 - `automation/scripts/capture-demo.mjs`: runs a step-based Playwright demo flow and captures frames.
 - `automation/scripts/make-gif.py`: turns captured frames into an animated GIF.
@@ -38,8 +39,9 @@ daily-practical-sites/
 4. Generate a screenshot and a short demo GIF.
 5. Create the matching GitHub repository.
 6. Push the project and deploy it with GitHub Pages when applicable.
-7. Record the result in `history/projects.json`.
-8. If a meaningful mistake, regression, or quality failure happened during the build, append it to `history/quality-lessons.md` with the concrete prevention rule.
+7. Put the GitHub Pages URL into the repository About homepage field so visitors can open the project directly.
+8. Record the result in `history/projects.json`.
+9. If a meaningful mistake, regression, or quality failure happened during the build, append it to `history/quality-lessons.md` with the concrete prevention rule.
 
 ## Conventions
 

@@ -80,6 +80,8 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-04-30: [screenshot-ocr-index-studio-day13](https://github.com/lxiaonan/screenshot-ocr-index-studio-day13)
+  GitHub Pages: [https://lxiaonan.github.io/screenshot-ocr-index-studio-day13/](https://lxiaonan.github.io/screenshot-ocr-index-studio-day13/)
 - 2026-04-29: [c-drive-safety-cleaner-day12](https://github.com/lxiaonan/c-drive-safety-cleaner-day12)
   GitHub Pages: [https://lxiaonan.github.io/c-drive-safety-cleaner-day12/](https://lxiaonan.github.io/c-drive-safety-cleaner-day12/)
 - 2026-04-29: [download-cleanup-rename-studio-day11](https://github.com/lxiaonan/download-cleanup-rename-studio-day11)

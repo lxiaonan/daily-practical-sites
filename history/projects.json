@@ -118,5 +118,15 @@
     "summary":  "A bilingual local-first Windows C drive cleanup studio that combines a PowerShell scanner, JSON report import, size-ranked folder and file review, risk explanations, allowlist target selection, and DryRun cleanup script export.",
     "pages_url":  "https://lxiaonan.github.io/c-drive-safety-cleaner-day12/",
     "status":  "published"
+},
+{
+    "date":  "2026-04-30",
+    "name":  "截图 OCR 索引工作台 | Screenshot OCR Index Studio",
+    "repo":  "https://github.com/lxiaonan/screenshot-ocr-index-studio-day13",
+    "folder":  "screenshot-ocr-index-studio-day13",
+    "category":  "screenshot-ocr-index-workflow",
+    "summary":  "A bilingual local-first screenshot OCR indexing workbench with batch image import, browser OCR through Tesseract.js, searchable transcripts, tags, review states, local persistence, and JSON/CSV/Markdown export.",
+    "pages_url":  "https://lxiaonan.github.io/screenshot-ocr-index-studio-day13/",
+    "status":  "published"
 }
 ]

@@ -77,3 +77,12 @@
   `screenshot-ocr-index-studio-day13` could store OCR text such as `路 径 分 析`, but searching for `分析` returned no result because the matcher only used plain substring matching.
 - Prevention rule:
   Any OCR, PDF, screenshot, or imported-text search must normalize text before matching. Use Unicode normalization, punctuation folding, whitespace compaction, and at least one real CJK OCR-style regression case before publishing.
+
+## 2026-05-11
+
+### Lesson 11: Backend helper scripts must be runtime-started, not only syntax-checked
+
+- What happened:
+  `tab-audio-translator-day14` initially used Python's removed `cgi` module for multipart parsing. `py_compile` passed on some assumptions would not be enough; the bridge failed at runtime on the current Python version before `/health` could respond.
+- Prevention rule:
+  For any backend or bridge service, run the server once and verify at least one real health endpoint before asset generation or publishing. Avoid deprecated or removed standard-library modules, and prefer small explicit parsers or maintained dependencies.

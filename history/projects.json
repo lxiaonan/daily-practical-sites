@@ -1,4 +1,4 @@
-[
+﻿[
 {
     "date":  "2026-04-21",
     "name":  "自由职业报价换算器 | Freelance Rate Calculator",
@@ -101,7 +101,7 @@
 },
 {
     "date":  "2026-04-29",
-    "name":  "下载整理与批量重命名工作台 | Download Cleanup & Rename Studio",
+    "name":  "下载整理与批量重命名工作台 | Download Cleanup \u0026 Rename Studio",
     "repo":  "https://github.com/lxiaonan/download-cleanup-rename-studio-day11",
     "folder":  "download-cleanup-rename-studio-day11",
     "category":  "download-organization-workflow",
@@ -128,5 +128,14 @@
     "summary":  "A bilingual local-first screenshot OCR indexing workbench with batch image import, browser OCR through Tesseract.js, searchable transcripts, tags, review states, local persistence, and JSON/CSV/Markdown export.",
     "pages_url":  "https://lxiaonan.github.io/screenshot-ocr-index-studio-day13/",
     "status":  "published"
+},
+{
+    "date":  "2026-05-11",
+    "name":  "标签页音频实时翻译器 | Tab Audio Translator",
+    "repo":  "https://github.com/lxiaonan/tab-audio-translator-day14",
+    "folder":  "tab-audio-translator-day14",
+    "category":  "chrome-extension-audio-translation",
+    "summary":  "A Chrome extension plus local Python bridge for real current-tab audio capture, configurable ASR/translation hooks, live subtitle overlay, bilingual controls, local session logs, and honest no-engine fallback.",
+    "pages_url":  "https://lxiaonan.github.io/tab-audio-translator-day14/"
 }
 ]

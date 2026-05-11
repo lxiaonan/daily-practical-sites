@@ -1,4 +1,4 @@
-# Daily Practical Sites
+﻿# Daily Practical Sites
 
 This repository is the control center for a daily automation that creates one practical website per day.
 
@@ -114,3 +114,4 @@ daily-practical-sites/
   GitHub Pages: [https://lxiaonan.github.io/web-research-workbench-day2/](https://lxiaonan.github.io/web-research-workbench-day2/)
 - 2026-04-21: [freelance-rate-calculator-cn-day1](https://github.com/lxiaonan/freelance-rate-calculator-cn-day1)
   GitHub Pages: [https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/](https://lxiaonan.github.io/freelance-rate-calculator-cn-day1/)
+

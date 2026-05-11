@@ -86,3 +86,10 @@
   `tab-audio-translator-day14` initially used Python's removed `cgi` module for multipart parsing. `py_compile` passed on some assumptions would not be enough; the bridge failed at runtime on the current Python version before `/health` could respond.
 - Prevention rule:
   For any backend or bridge service, run the server once and verify at least one real health endpoint before asset generation or publishing. Avoid deprecated or removed standard-library modules, and prefer small explicit parsers or maintained dependencies.
+
+### Lesson 12: Media/AI bridges need a real sample round-trip
+
+- What happened:
+  `tab-audio-translator-day14` originally exposed an ASR command hook, but the real value only became clear after installing whisper.cpp, generating a WebM test clip, and verifying `/translate-chunk` returned recognized text.
+- Prevention rule:
+  For audio, OCR, video, or AI bridge features, test one realistic input file through the same endpoint the product uses. Document the exact local engine path and keep large models, binaries, and generated media out of Git.

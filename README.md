@@ -86,6 +86,10 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-05-16: [ai-frontend-design-guard-studio-day15](https://github.com/lxiaonan/ai-frontend-design-guard-studio-day15)
+  GitHub Pages: [https://lxiaonan.github.io/ai-frontend-design-guard-studio-day15/](https://lxiaonan.github.io/ai-frontend-design-guard-studio-day15/)
+- 2026-05-11: [tab-audio-translator-day14](https://github.com/lxiaonan/tab-audio-translator-day14)
+  GitHub Pages: [https://lxiaonan.github.io/tab-audio-translator-day14/](https://lxiaonan.github.io/tab-audio-translator-day14/)
 - 2026-04-30: [screenshot-ocr-index-studio-day13](https://github.com/lxiaonan/screenshot-ocr-index-studio-day13)
   GitHub Pages: [https://lxiaonan.github.io/screenshot-ocr-index-studio-day13/](https://lxiaonan.github.io/screenshot-ocr-index-studio-day13/)
 - 2026-04-29: [c-drive-safety-cleaner-day12](https://github.com/lxiaonan/c-drive-safety-cleaner-day12)

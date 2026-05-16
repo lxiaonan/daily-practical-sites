@@ -137,5 +137,14 @@
     "category":  "chrome-extension-audio-translation",
     "summary":  "A Chrome extension plus local Python bridge for real current-tab audio capture, configurable ASR/translation hooks, live subtitle overlay, bilingual controls, local session logs, and honest no-engine fallback.",
     "pages_url":  "https://lxiaonan.github.io/tab-audio-translator-day14/"
+},
+{
+    "date":  "2026-05-16",
+    "name":  "AI 前端设计护栏工作台 | AI Frontend Design Guard Studio",
+    "repo":  "https://github.com/lxiaonan/ai-frontend-design-guard-studio-day15",
+    "folder":  "ai-frontend-design-guard-studio-day15",
+    "category":  "frontend-design-quality-workflow",
+    "summary":  "A bilingual local-first frontend design guardrail studio that generates design tokens, audits HTML/CSS for AI-looking UI risks, saves local history, and exports CSS, Markdown, JSON, and agents.md packs.",
+    "pages_url":  "https://lxiaonan.github.io/ai-frontend-design-guard-studio-day15/"
 }
 ]

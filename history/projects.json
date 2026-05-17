@@ -146,5 +146,14 @@
     "category":  "frontend-design-quality-workflow",
     "summary":  "A bilingual local-first frontend design guardrail studio that generates design tokens, audits HTML/CSS for AI-looking UI risks, saves local history, and exports CSS, Markdown, JSON, and agents.md packs.",
     "pages_url":  "https://lxiaonan.github.io/ai-frontend-design-guard-studio-day15/"
+},
+{
+    "date":  "2026-05-17",
+    "name":  "图片压缩打包实验室 | Image Shrink Zip Lab",
+    "repo":  "https://github.com/lxiaonan/image-shrink-zip-lab-day16",
+    "folder":  "image-shrink-zip-lab-day16",
+    "category":  "image-compression-zip-workflow",
+    "summary":  "A bilingual local browser tool that batch imports images, resizes and compresses them with Canvas, renames outputs, exports a ZIP, generates a Markdown report, and keeps local batch history.",
+    "pages_url":  "https://lxiaonan.github.io/image-shrink-zip-lab-day16/"
 }
 ]

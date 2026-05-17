@@ -86,6 +86,8 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-05-17: [image-shrink-zip-lab-day16](https://github.com/lxiaonan/image-shrink-zip-lab-day16)
+  GitHub Pages: [https://lxiaonan.github.io/image-shrink-zip-lab-day16/](https://lxiaonan.github.io/image-shrink-zip-lab-day16/)
 - 2026-05-16: [ai-frontend-design-guard-studio-day15](https://github.com/lxiaonan/ai-frontend-design-guard-studio-day15)
   GitHub Pages: [https://lxiaonan.github.io/ai-frontend-design-guard-studio-day15/](https://lxiaonan.github.io/ai-frontend-design-guard-studio-day15/)
 - 2026-05-11: [tab-audio-translator-day14](https://github.com/lxiaonan/tab-audio-translator-day14)

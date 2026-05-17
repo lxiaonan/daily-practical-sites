@@ -93,3 +93,12 @@
   `tab-audio-translator-day14` originally exposed an ASR command hook, but the real value only became clear after installing whisper.cpp, generating a WebM test clip, and verifying `/translate-chunk` returned recognized text.
 - Prevention rule:
   For audio, OCR, video, or AI bridge features, test one realistic input file through the same endpoint the product uses. Document the exact local engine path and keep large models, binaries, and generated media out of Git.
+
+## 2026-05-17
+
+### Lesson 13: Control-repo automation scripts must be called from the control repo
+
+- What happened:
+  `image-shrink-zip-lab-day16` pushed successfully, but the first attempt to enable Pages and update repository About failed because `automation/scripts/*.ps1` was invoked from the standalone project directory instead of `daily-practical-sites`.
+- Prevention rule:
+  When running control-repo helper scripts such as `enable-pages.ps1`, `update-repo-about.ps1`, `create-github-repo.ps1`, and asset capture scripts, set the working directory to `C:\Users\luoyn\Desktop\aiproject\daily-practical-sites` or use absolute script paths. Do not assume those scripts exist inside the standalone project folder.

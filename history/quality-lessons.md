@@ -102,3 +102,12 @@
   `image-shrink-zip-lab-day16` pushed successfully, but the first attempt to enable Pages and update repository About failed because `automation/scripts/*.ps1` was invoked from the standalone project directory instead of `daily-practical-sites`.
 - Prevention rule:
   When running control-repo helper scripts such as `enable-pages.ps1`, `update-repo-about.ps1`, `create-github-repo.ps1`, and asset capture scripts, set the working directory to `C:\Users\luoyn\Desktop\aiproject\daily-practical-sites` or use absolute script paths. Do not assume those scripts exist inside the standalone project folder.
+
+## 2026-05-18
+
+### Lesson 14: Repeated card grids make projects feel low-value
+
+- What happened:
+  Multiple daily projects leaned on the same composition pattern: hero area followed by many rounded cards. Even when the tools worked, the UI felt generic, low-effort, and visually noisy because the layout was chosen from a component habit rather than the user's real task flow.
+- Prevention rule:
+  Before coding, run a Trellis-style product decomposition: user job, success outcome, input/output objects, states, primary path, error path, and information architecture. Do not default to card grids. Use cards only when the domain is inherently a gallery, catalog, kanban board, or comparison set. Prefer task-shaped layouts such as document editor, command palette, timeline, canvas, split pane, inspector, wizard, native utility, or meaningful three.js scene.

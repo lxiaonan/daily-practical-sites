@@ -78,6 +78,9 @@ daily-practical-sites/
 - Prefer projects with at least 3 meaningful user interactions or modules, such as data entry, history, comparison, export, persistence, AI assistance, collaboration, visualization, or workflow automation.
 - Prefer multi-step experiences that solve a real task end to end, not just one isolated calculation.
 - Prefer interfaces with stronger visual personality, layered composition, and interaction feedback instead of plain form-plus-result layouts.
+- Do not default to pages made from many repeated cards. A card grid is allowed only when the product is inherently a gallery, catalog, kanban board, or comparison set. Otherwise, design from the user's task flow first.
+- Before implementation, use a Trellis-style product decomposition: define the concrete user job, success outcome, input/output objects, state transitions, primary path, error path, and why the chosen information architecture fits. Then choose UI structure such as document editor, canvas, timeline, wizard, command palette, split pane, inspector, native utility, or 3D scene.
+- Each new project must explicitly state the non-card layout strategy before coding. If the planned layout is still “hero plus many cards,” stop and redesign unless the domain truly requires cards.
 - Before writing frontend code, run an explicit design pass: define audience, moodboard keywords, design tokens, layout strategy, component variants, interaction states, and accessibility checks.
 - Do not reuse the same daily-project dashboard shell repeatedly. Rotate visual languages and information architecture so new projects do not look obviously AI-generated.
 - Use CSS variables or Tailwind tokens for color, spacing, radius, shadows, and motion. Avoid ad hoc hardcoded styling.

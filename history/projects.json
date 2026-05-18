@@ -155,5 +155,14 @@
     "category":  "image-compression-zip-workflow",
     "summary":  "A bilingual local browser tool that batch imports images, resizes and compresses them with Canvas, renames outputs, exports a ZIP, generates a Markdown report, and keeps local batch history.",
     "pages_url":  "https://lxiaonan.github.io/image-shrink-zip-lab-day16/"
+},
+{
+    "date":  "2026-05-18",
+    "name":  "PDF 页面手术箱 | PDF Page Surgery Kit",
+    "repo":  "https://github.com/lxiaonan/pdf-page-surgery-kit-day17",
+    "folder":  "pdf-page-surgery-kit-day17",
+    "category":  "pdf-page-surgery-workflow",
+    "summary":  "A bilingual local browser PDF tool that imports multiple PDFs, parses page counts, extracts or deletes page ranges, reverses order, merges output, downloads a new PDF, copies an operation report, and keeps local history.",
+    "pages_url":  "https://lxiaonan.github.io/pdf-page-surgery-kit-day17/"
 }
 ]

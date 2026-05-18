@@ -86,6 +86,8 @@ daily-practical-sites/
 
 ## Latest Projects
 
+- 2026-05-18: [pdf-page-surgery-kit-day17](https://github.com/lxiaonan/pdf-page-surgery-kit-day17)
+  GitHub Pages: [https://lxiaonan.github.io/pdf-page-surgery-kit-day17/](https://lxiaonan.github.io/pdf-page-surgery-kit-day17/)
 - 2026-05-17: [image-shrink-zip-lab-day16](https://github.com/lxiaonan/image-shrink-zip-lab-day16)
   GitHub Pages: [https://lxiaonan.github.io/image-shrink-zip-lab-day16/](https://lxiaonan.github.io/image-shrink-zip-lab-day16/)
 - 2026-05-16: [ai-frontend-design-guard-studio-day15](https://github.com/lxiaonan/ai-frontend-design-guard-studio-day15)

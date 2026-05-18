@@ -70,6 +70,7 @@ daily-practical-sites/
 - Inspiration research must start from current real-world demand signals, with `https://linux.do/` and `https://juejin.cn/` treated as default required sources unless they are temporarily unavailable.
 - Each new project should be traceable to fresh community needs, complaints, requests, or repeated workflows discovered that day across the web.
 - Frontend can use Vue 3, React, or vanilla JavaScript depending on fit.
+- Future frontend projects should use `three.js` when it adds meaningful interaction or visualization, such as 3D previews, spatial comparison, file structure maps, data objects, or interactive explainers. Do not use it as empty decoration.
 - Backend can use Python or Java when a backend meaningfully improves the product.
 - Every project must include at least one clearly stated innovation or differentiator in its README.
 - New projects should default to product-level complexity rather than single-page toy tools.

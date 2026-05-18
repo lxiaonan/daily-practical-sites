@@ -34,6 +34,12 @@
 - 如果有模型、搜索、抓取、后端等依赖，说明当前使用的真实实现方式或平替方案
 - 不要写“未来可接入”来冒充当前已经具备的主能力
 
+### 真实用户工作流
+
+1. 写清楚非技术用户打开网站后第一步做什么。
+2. 写清楚用户如何完成核心动作，例如导入、选择、拖拽、删除、压缩、识别、翻译、导出或下载。
+3. 写清楚用户拿到什么结果，以及如何判断结果可用。
+
 ### 使用方式
 
 1. 打开网站。
@@ -79,6 +85,12 @@ Explain the problem this project solves, who it is for, and why it is useful.
 - Clearly state the core capability that is truly usable in the published build
 - If the product depends on models, search, scraping, or backend services, explain the real implementation path or fallback used today
 - Do not present future integrations as if they already power the main experience
+
+### Real User Workflow
+
+1. Explain what a non-technical user does first after opening the site.
+2. Explain how the user completes the core action, such as importing, selecting, dragging, deleting, compressing, recognizing, translating, exporting, or downloading.
+3. Explain what result the user gets and how they can tell it worked.
 
 ### How To Use
 

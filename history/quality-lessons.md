@@ -111,3 +111,10 @@
   Multiple daily projects leaned on the same composition pattern: hero area followed by many rounded cards. Even when the tools worked, the UI felt generic, low-effort, and visually noisy because the layout was chosen from a component habit rather than the user's real task flow.
 - Prevention rule:
   Before coding, run a Trellis-style product decomposition: user job, success outcome, input/output objects, states, primary path, error path, and information architecture. Do not default to card grids. Use cards only when the domain is inherently a gallery, catalog, kanban board, or comparison set. Prefer task-shaped layouts such as document editor, command palette, timeline, canvas, split pane, inspector, wizard, native utility, or meaningful three.js scene.
+
+### Lesson 15: Completion is not usefulness
+
+- What happened:
+  `pdf-page-surgery-kit-day17` shipped with page-range input and a polished 3D-style preview, but it missed the must-have user gesture for an ordinary PDF cleanup tool: visual thumbnails with direct select, drag, delete, rotate, reorder, preview, and export. The project could be completed and published while still failing the real "who would use this today" test.
+- Prevention rule:
+  Before implementation, identify the one core user action that would make the product unacceptable if missing, then build and test that first. Do not use UI polish, reports, 3D visuals, dashboards, or explanations to compensate for a missing core capability. A project is not done until a non-technical user can complete the main workflow end to end in the shipped build.

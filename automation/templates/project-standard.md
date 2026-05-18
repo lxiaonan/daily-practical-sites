@@ -10,6 +10,18 @@
 - Start inspiration research from current community demand signals on `https://linux.do/` and `https://juejin.cn/`, then expand to other current web sources if needed.
 - Be able to explain which same-day demand signal led to the project choice.
 
+## Real-Usefulness Gate
+
+Before coding, write down direct answers to:
+
+- Who will use this today?
+- What exact annoying step, cost, risk, or repeated chore does it remove?
+- What would the user do without it?
+- What is the simplest real workflow a non-technical user expects to finish?
+- What missing core action would make the project unacceptable?
+
+If any answer is weak or depends on "future AI/API/backend integration", reject the idea or redesign it. Completed and published is not success. A real user must be able to finish the core job in the shipped build.
+
 ## Minimum Complexity
 
 - Include at least 3 meaningful modules or flows.
@@ -38,6 +50,9 @@
 - Do not ship a pretty landing page pretending to be a product.
 - Do not imply AI, search, scraping, automation, or intelligence that is not actually connected and usable.
 - Do not make the main value proposition depend on a missing API key, missing backend, or future integration.
+- Do not hide missing core functionality behind polished UI, 3D decoration, dashboards, reports, charts, or long explanations.
+- Do not ship a PDF tool whose main interaction is only page-range text input when ordinary users need visual thumbnails, select, drag, delete, rotate, reorder, preview, and export.
+- Do not ship image, audio, OCR, translation, scraping, or AI tools without a real same-path sample round-trip through the feature the user will actually use.
 
 ## Quality Bar
 
@@ -50,6 +65,7 @@
 - Push the visual quality beyond a plain utility page. Use deliberate layout, color, typography, spacing, and motion so the product feels polished and a bit cool.
 - If the ideal version needs models or external services, ship an honest working fallback in the published build first.
 - README must explicitly document the real implementation path and any fallback behavior so users know the product is genuinely usable.
+- README must include a "Real user workflow" section that shows the exact non-technical steps a user can complete today.
 - Stress-test the layout with long content, many rows, long paths, and dense results. Panels should contain overflow gracefully instead of stretching the entire page into an unreadable wall.
 - If the product analyzes repositories, files, logs, or other noisy sources, ignore common generated directories and machine output by default whenever that improves usability.
 - If a meaningful mistake or regression is discovered during the build, record it in `daily-practical-sites/history/quality-lessons.md` and add the prevention rule before considering the task done.

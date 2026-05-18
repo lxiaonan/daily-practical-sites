@@ -35,13 +35,26 @@ daily-practical-sites/
 
 1. Research the web for a useful site idea on the same day the project is built.
 2. Check `history/projects.json` to avoid repeating a topic.
-3. Build the site in its own standalone local repository.
-4. Generate a screenshot and a short demo GIF.
-5. Create the matching GitHub repository.
-6. Push the project and deploy it with GitHub Pages when applicable.
-7. Put the GitHub Pages URL into the repository About homepage field so visitors can open the project directly.
-8. Record the result in `history/projects.json`.
-9. If a meaningful mistake, regression, or quality failure happened during the build, append it to `history/quality-lessons.md` with the concrete prevention rule.
+3. Run the real-usefulness gate before coding. If the idea cannot pass, reject it and pick a better one.
+4. Build the site in its own standalone local repository.
+5. Generate a screenshot and a short demo GIF.
+6. Create the matching GitHub repository.
+7. Push the project and deploy it with GitHub Pages when applicable.
+8. Put the GitHub Pages URL into the repository About homepage field so visitors can open the project directly.
+9. Record the result in `history/projects.json`.
+10. If a meaningful mistake, regression, or quality failure happened during the build, append it to `history/quality-lessons.md` with the concrete prevention rule.
+
+## Real-Usefulness Gate
+
+Before any implementation starts, answer these questions in the project notes or README draft:
+
+- Who will use this today, without needing to imagine a future version?
+- What exact annoying step, cost, risk, or repeated chore does it remove?
+- What would the user do without this project, and why is this clearly better?
+- What is the simplest real workflow a non-technical user expects to complete from start to finish?
+- What core user action would make the project unacceptable if missing?
+
+If any answer is weak, vague, or depends on a future integration, stop and choose a stronger project. Completed and published is not success. Success means a real user can complete the core job on the shipped build.
 
 ## Conventions
 
@@ -62,6 +75,11 @@ daily-practical-sites/
 - Do not fake core capabilities. If a project claims AI help, search, scraping, file processing, or backend intelligence, that capability must actually run in the shipped build.
 - If the ideal implementation depends on unavailable APIs, model keys, paid services, or fragile infrastructure, build a working fallback first, such as deterministic local processing, real web search, import-based workflows, or another honest substitute.
 - Never ship a page whose main promise is not actually usable on the published site.
+- Do not replace missing core functionality with visual polish, 3D effects, dashboards, reports, or explanatory text. The real user action must work first; styling and storytelling are secondary.
+- For PDF tools, the expected core action is visual page understanding and direct manipulation such as thumbnails, select, drag, delete, rotate, reorder, preview, and export. A page-range input alone is not enough for ordinary users to trust the result.
+- For image tools, actual file processing, preview, size comparison, and download/export must work in the browser or backend that ships. A fake compression report is not acceptable.
+- For audio, OCR, translation, scraping, or AI tools, at least one realistic end-to-end sample must run through the same path the user will use. Demos, hooks, or future API promises do not count.
+- Every project README must include a short "Real user workflow" section showing the exact steps a non-technical user can complete today.
 - README must clearly state what is truly implemented, what fallback is used, and what optional upgrades could be added later.
 - Significant mistakes discovered during development must be written into `history/quality-lessons.md` together with the concrete rule or safeguard added to prevent a repeat.
 - Long daily runs must be staged. Prefer explicit phase checkpoints such as research, build, asset generation, publish, and index update instead of one opaque blocking sequence.

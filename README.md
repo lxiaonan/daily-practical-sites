@@ -33,16 +33,17 @@ daily-practical-sites/
 
 ## Workflow
 
-1. Research the web for a useful site idea on the same day the project is built.
-2. Check `history/projects.json` to avoid repeating a topic.
-3. Run the real-usefulness gate before coding. If the idea cannot pass, reject it and pick a better one.
-4. Build the site in its own standalone local repository.
-5. Generate a screenshot and a short demo GIF.
-6. Create the matching GitHub repository.
-7. Push the project and deploy it with GitHub Pages when applicable.
-8. Put the GitHub Pages URL into the repository About homepage field so visitors can open the project directly.
-9. Record the result in `history/projects.json`.
-10. If a meaningful mistake, regression, or quality failure happened during the build, append it to `history/quality-lessons.md` with the concrete prevention rule.
+1. Start with the Trellis skill before project selection or code. Use `trellis-before-dev` to discover and read `.trellis/spec/` guidance when available.
+2. Research the web for a useful site idea on the same day the project is built.
+3. Check `history/projects.json` to avoid repeating a topic.
+4. Run the real-usefulness gate before coding. If the idea cannot pass, reject it and pick a better one.
+5. Build the site in its own standalone local repository.
+6. Generate a screenshot and a short demo GIF.
+7. Create the matching GitHub repository.
+8. Push the project and deploy it with GitHub Pages when applicable.
+9. Put the GitHub Pages URL into the repository About homepage field so visitors can open the project directly.
+10. Record the result in `history/projects.json`.
+11. If a meaningful mistake, regression, or quality failure happened during the build, append it to `history/quality-lessons.md` with the concrete prevention rule.
 
 ## Real-Usefulness Gate
 
@@ -59,6 +60,7 @@ If any answer is weak, vague, or depends on a future integration, stop and choos
 ## Conventions
 
 - One day, one primary shipped project. If a same-day remake is needed, the stronger rebuild becomes the recommended entry and earlier attempts can remain archived as superseded work.
+- Every future project must begin by using the Trellis skill, specifically `trellis-before-dev`, before selecting architecture or writing code. If the target workspace has no `.trellis` directory, record that result and continue with the control repo standards and quality lessons as fallback.
 - Every project gets its own GitHub repository.
 - Every project folder and repository should follow the `<project-slug>-dayN` naming format.
 - Projects must not feel too simple. Default to product-level depth rather than a tiny one-screen utility.

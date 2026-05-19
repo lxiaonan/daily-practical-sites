@@ -2,6 +2,8 @@
 
 ## Baseline
 
+- Start every project with the Trellis skill before architecture or code. Use `trellis-before-dev` to read `.trellis/spec/` guidance when available.
+- If the target workspace has no `.trellis` directory or context script, explicitly record that Trellis guidance was unavailable and fall back to this standard plus `history/quality-lessons.md`.
 - Build a small but real product, not a one-screen toy.
 - The project should feel useful enough that someone could actually bookmark it and come back.
 - The interaction model should go beyond a single calculation or form submit.

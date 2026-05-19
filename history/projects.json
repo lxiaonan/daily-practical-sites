@@ -164,5 +164,14 @@
     "category":  "pdf-page-surgery-workflow",
     "summary":  "A bilingual local browser PDF tool that imports multiple PDFs, parses page counts, extracts or deletes page ranges, reverses order, merges output, downloads a new PDF, copies an operation report, and keeps local history.",
     "pages_url":  "https://lxiaonan.github.io/pdf-page-surgery-kit-day17/"
+},
+{
+    "date":  "2026-05-19",
+    "name":  "服务器迁移作战台 | Server Migration Command Deck",
+    "repo":  "https://github.com/lxiaonan/server-migration-command-deck-day18",
+    "folder":  "server-migration-command-deck-day18",
+    "category":  "server-migration-workflow",
+    "summary":  "A local-only server migration command deck that generates risk scoring, a six-phase checklist, Bash commands, rollback guidance, Markdown/Bash exports, local progress persistence, and a meaningful three.js migration topology.",
+    "pages_url":  "https://lxiaonan.github.io/server-migration-command-deck-day18/"
 }
 ]

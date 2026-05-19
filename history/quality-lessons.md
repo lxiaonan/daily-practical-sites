@@ -118,3 +118,12 @@
   `pdf-page-surgery-kit-day17` shipped with page-range input and a polished 3D-style preview, but it missed the must-have user gesture for an ordinary PDF cleanup tool: visual thumbnails with direct select, drag, delete, rotate, reorder, preview, and export. The project could be completed and published while still failing the real "who would use this today" test.
 - Prevention rule:
   Before implementation, identify the one core user action that would make the product unacceptable if missing, then build and test that first. Do not use UI polish, reports, 3D visuals, dashboards, or explanations to compensate for a missing core capability. A project is not done until a non-technical user can complete the main workflow end to end in the shipped build.
+
+## 2026-05-19
+
+### Lesson 16: Control-repo scripts need an enforced working-directory wrapper
+
+- What happened:
+  During `server-migration-command-deck-day18`, the project push succeeded, but the first Pages enablement command was accidentally invoked from the standalone project folder. This repeated the same class of mistake already captured in Lesson 13 and produced a script-not-found error before being corrected from the control repo.
+- Prevention rule:
+  For every daily publish phase, run control helper scripts only from `C:\Users\luoyn\Desktop\aiproject\daily-practical-sites`, or call them by absolute path. Before invoking `automation/scripts/*.ps1`, explicitly check the current working directory and stop if it is not the control repo.

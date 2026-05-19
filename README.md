@@ -108,6 +108,8 @@ If any answer is weak, vague, or depends on a future integration, stop and choos
 
 ## Latest Projects
 
+- 2026-05-19: [server-migration-command-deck-day18](https://github.com/lxiaonan/server-migration-command-deck-day18)
+  GitHub Pages: [https://lxiaonan.github.io/server-migration-command-deck-day18/](https://lxiaonan.github.io/server-migration-command-deck-day18/)
 - 2026-05-18: [pdf-page-surgery-kit-day17](https://github.com/lxiaonan/pdf-page-surgery-kit-day17)
   GitHub Pages: [https://lxiaonan.github.io/pdf-page-surgery-kit-day17/](https://lxiaonan.github.io/pdf-page-surgery-kit-day17/)
 - 2026-05-17: [image-shrink-zip-lab-day16](https://github.com/lxiaonan/image-shrink-zip-lab-day16)

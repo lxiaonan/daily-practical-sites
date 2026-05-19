@@ -127,3 +127,10 @@
   During `server-migration-command-deck-day18`, the project push succeeded, but the first Pages enablement command was accidentally invoked from the standalone project folder. This repeated the same class of mistake already captured in Lesson 13 and produced a script-not-found error before being corrected from the control repo.
 - Prevention rule:
   For every daily publish phase, run control helper scripts only from `C:\Users\luoyn\Desktop\aiproject\daily-practical-sites`, or call them by absolute path. Before invoking `automation/scripts/*.ps1`, explicitly check the current working directory and stop if it is not the control repo.
+
+### Lesson 17: Vite project pages need an explicit GitHub Pages base path
+
+- What happened:
+  `server-migration-command-deck-day18` deployed successfully and returned HTTP 200, but the page could not actually open because Vite emitted asset URLs like `/assets/index.js`. On a GitHub Pages project site, those assets must be under `/server-migration-command-deck-day18/assets/...`.
+- Prevention rule:
+  Every Vite project deployed to a repository Pages URL must include `vite.config.ts` with `base: '/<repo-name>/'` before the first publish. Deployment verification must check that the rendered page loads its JS/CSS assets, not just that the HTML URL returns 200.
